@@ -20,9 +20,7 @@ public class Main {
 
         if (choice < 1 || choice > 3) {   // if number is less than 1 or greater than 3, output will be invalid calculator.
             System.out.println("Invalid Calculator");
-        } else {
-
-
+   
 
 
         switch (choice) { //utilizing switch statements for the three different cases/calculators
