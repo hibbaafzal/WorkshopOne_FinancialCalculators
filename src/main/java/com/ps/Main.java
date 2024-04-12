@@ -4,7 +4,7 @@ import java.util.*;
 
 public class Main {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) { // main method
 
         Scanner scanner = new Scanner(System.in);
 
@@ -32,7 +32,8 @@ public class Main {
                 presentValueCalculator(scanner);
                 break;
         }
-        scanner.close();
+        scanner.close(); // close the scanner
+        
     }
 
     public static void mortgageCalculator(Scanner scanner) { //static method
@@ -59,7 +60,7 @@ public class Main {
 
     }
 
-    public static void futureValueCalculator(Scanner scanner) {
+    public static void futureValueCalculator(Scanner scanner) { // static method
 
         System.out.println("Enter initial deposit amount: "); // asks user for deposit amount
         double initialDeposit = scanner.nextDouble();
@@ -81,7 +82,7 @@ public class Main {
 
     }
 
-    public static void presentValueCalculator(Scanner scanner) {
+    public static void presentValueCalculator(Scanner scanner) { // static method
 
         System.out.println("Enter expected monthly payout: "); // asks user for expected monthly payout
         double expectedMonthlyPayout = scanner.nextDouble();
