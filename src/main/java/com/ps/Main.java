@@ -31,6 +31,10 @@ public class Main {
             case 3:
                 presentValueCalculator(scanner);
                 break;
+                
+            default:
+                System.out.println("Invalid Calculator");
+                  break;
         }
         scanner.close(); // close the scanner
         
