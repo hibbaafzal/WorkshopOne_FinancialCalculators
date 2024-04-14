@@ -28,9 +28,7 @@ The error below shows the error when the number of years is put as a decimal ins
 #### Interesting Code
 An piece of code that I found interesting was the if statment in my code: 
 
-if (choice < 1 || choice > 3) {   
-          
+default: System.out.println("Invalid Calculator");
+                break;
 
-I found this interesting because I did not know that you can have an if statement without having an else statement.
-
-
+I found this interesting because if the user puts an invalid choice it will print "Invalid Calculator" and this is done without the use of if/else statements. 
